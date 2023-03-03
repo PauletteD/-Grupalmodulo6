@@ -1,0 +1,91 @@
+/* Estilos para el cuerpo completo */
+body {
+    background-color: rgb(217, 255, 0);
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-image: url('https://lamenteesmaravillosa.com/wp-content/uploads/2017/08/ave-F%C3%A9nix.jpg'); /* imagen de fondo del encabezado */
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  header h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  /* Estilos para la columna izquierda */
+  aside {
+    float: left;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* color de fondo del cuadro */
+    border: 3px solid #333333; /* borde del cuadro */
+    border-radius: 10px; /* esquinas redondeadas */
+    box-shadow: 10px 10px 5px #888888; /* sombra del cuadro */
+  }
+  
+  aside h3 {
+    margin-top: 0;
+  }
+  
+  aside p {
+    font-size: 0.8em;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    float: right;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333333;
+  }
+  
+  section ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  section li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
